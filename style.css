@@ -1,0 +1,148 @@
+/*Gerais*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+  color: rgb(30, 135, 226);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  color: rgb(30, 135, 226);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  text-align: center;
+  padding-right: 2.5rem;
+}
+
+hr {
+  padding: 1px;
+  background-color: gray;
+}
+
+body {
+  background-color: rgb(1, 7, 44);
+  color: rgb(252, 252, 252);
+	
+}
+
+/*navbar elements*/
+#navbar {
+  margin-bottom: -13px;
+  margin-top: -13px;
+  background-color: rgb(1, 7, 44);
+}
+#navbar img {
+  max-width: 70px;
+}
+
+
+
+/*Carousel*/
+
+#carousel img {
+  max-width: 100wh;
+  max-height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  opacity: 0.7;
+}
+
+#carousel #text-slide-1 {
+  text-align: left;
+  margin-bottom: 30px;
+  margin-left: -25px;
+}
+
+#carousel #text-slide-2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#carousel #text-slide-3 {
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: -25px;
+}
+
+/*service*/
+
+#service .col-4 {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+	transition: transform .2s;
+	padding: 1rem;
+}
+
+#service .col-4:hover{
+	transform: scale(1.13);
+	
+}
+
+#service .service-text {
+  text-align: center;
+  padding-right: 3.5rem;
+}
+
+/*history */
+
+#history {
+  padding-left: 20px;
+}
+
+#history .text-history {
+  max-width: 45rem;
+  position: absolute;
+}
+
+#history img {
+  max-width: 30rem;
+  margin-left: 50rem;
+  position: relative;
+  margin-top: -90px;
+	margin-bottom: 30px;
+	transition: transform .2s;
+	opacity: 0.8;
+}
+
+#history img:hover{
+	transform: scale(1.08);
+	opacity: 1;
+}
+
+/*brand*/
+
+#brands {
+  display: inline-block;
+  width: 100%;
+}
+
+#brands .brands-item {
+  margin-left: 200px;
+}
+#brands img {
+  max-width: 50%;
+  margin-left: auto;
+  padding: 10px;
+}
+
+/*footer*/
+
+footer {
+  padding: 20px;
+}
