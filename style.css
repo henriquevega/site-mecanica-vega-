@@ -45,10 +45,24 @@ body {
   margin-top: -13px;
   background-color: rgb(1, 7, 44);
 }
-#navbar img {
+#navbar #logo {
   max-width: 70px;
 }
 
+#navbar #logo {
+ max-width: 70px;
+}
+
+#navbar #instagraam{
+  padding-right: 30px;
+  
+}
+
+#navbar #faceboook{
+  padding-right:20px;
+}
+  
+  
 
 
 /*Carousel*/
