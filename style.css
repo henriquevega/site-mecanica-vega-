@@ -162,19 +162,31 @@ footer {
   
 }
 
-#links {
+#footer #links {
   max-width:250px;
   height: 20px;
 }
 
-#insta{
+#footer #insta{
   max-width:350px;
   margin-left: 850px;
   margin-top: 10px;
   
 }
 
-#insta-button-{
+#footer #insta-button-{
   margin-left: 920px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.form-contact {
+  background-color: white;
+  max-width: 900px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius:4px;
+  padding: 10px;
 }
 
