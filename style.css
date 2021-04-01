@@ -159,4 +159,22 @@ body {
 
 footer {
   padding: 20px;
+  
 }
+
+#links {
+  max-width:250px;
+  height: 20px;
+}
+
+#insta{
+  max-width:350px;
+  margin-left: 850px;
+  margin-top: 10px;
+  
+}
+
+#insta-button-{
+  margin-left: 920px;
+}
+
