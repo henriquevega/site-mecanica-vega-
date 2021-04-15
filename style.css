@@ -36,6 +36,8 @@ hr {
 body {
   background-color: rgb(1, 7, 44);
   color: rgb(252, 252, 252);
+  overflow-x:hidden;
+  
 	
 }
 
@@ -178,7 +180,8 @@ footer {
   margin-left: 920px;
 }
 
-/*-----------------------------------------------------------------------------------------------------------*/
+
+/*Form*/
 
 .form-contact {
   background-color: white;
