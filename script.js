@@ -1,7 +1,4 @@
-function enviar(){
-    var nome = getelementById ("nomeidbutton-form");
+function enviar(){ 
+    alert(`Obrigado, seu email foi enviado com sucesso!`);
 
-    if(nome.value != "") {
-        alert(`Obrigado ${nome.value} os seus dados foram encaminhados com sucesso`)
-    }
 }
